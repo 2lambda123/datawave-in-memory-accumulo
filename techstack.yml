@@ -1,0 +1,83 @@
+repo_name: 2lambda123/datawave-in-memory-accumulo
+report_id: 563be2fe84920ea14aa6aeca49f52462
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-09T06:53:20+00:00'
+requested_by: 2lambda123
+provider: github
+branch: main
+detected_tools_count: 6
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/2lambda123/datawave-in-memory-accumulo
+  detection_source: Repo Metadata
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/2lambda123/datawave-in-memory-accumulo
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/2lambda123/datawave-in-memory-accumulo/blob/main/.github/workflows/deploy.yaml
+  detection_source: ".github/workflows/deploy.yaml"
+  last_updated_by: Adam Lerman awlerma
+  last_updated_on: 2023-10-28 14:56:05.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 2.28.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/2lambda123/datawave-in-memory-accumulo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jeffrey Schmidt jjschm4
+  last_updated_on: 2023-10-17 12:45:31.000000000 Z
+- name: commons-collections:commons-collections
+  description: Types that extend and augment the Java Collections Framework
+  version: 3.2.2
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/datawave-in-memory-accumulo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Adam Lerman awlerma
+  last_updated_on: 2023-10-28 14:59:08.000000000 Z
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 2.28.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/2lambda123/datawave-in-memory-accumulo/blob/main/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jeffrey Schmidt jjschm4
+  last_updated_on: 2023-10-17 12:45:31.000000000 Z
